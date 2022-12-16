@@ -1,5 +1,6 @@
 import heroImg from '../images/mide-balonu-uygulamasi.jpg';
 import styles from '../styles/Hero.module.css';
+import Link from 'next/link';
 
 
 
@@ -23,12 +24,12 @@ export default function Hero() {
         </p>
   
         <div className="mt-8 flex flex-wrap justify-center gap-4">
-          <a
+          <Link
             className="block w-full rounded bg-indigo-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-indigo-700 focus:outline-none focus:ring active:bg-indigo-500 sm:w-auto"
             href="/iletisim"
           >
             HEMEN BİLGİ AL
-          </a>
+          </Link>
   
       
         </div>
