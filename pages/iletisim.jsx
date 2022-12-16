@@ -1,8 +1,11 @@
 import React from 'react'
+import Navbar from '../components/Navbar'
 
 function iletisim() {
   return (
-    <div>iletisim</div>
+    <>
+    <Navbar />
+    </>
   )
 }
 

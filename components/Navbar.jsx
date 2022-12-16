@@ -1,12 +1,17 @@
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import logo from '../images/logo.png'
+import Image from 'next/image'
+import whatsapp from '../images/WhatsApp.jpg'
+import Link from 'next/link'
 
 const navigation = [
-  { name: 'Dashboard', href: '#', current: true },
-  { name: 'Team', href: '#', current: false },
-  { name: 'Projects', href: '#', current: false },
-  { name: 'Calendar', href: '#', current: false },
+  { name: 'HAKKIMDA', href: '/hakkimda', current: false },
+  { name: 'TEDAVİLER', href: '/tedaviler', current: false },
+  { name: 'BÖLÜMLER', href: '/bolumler', current: false },
+  { name: 'HASTA YORUMLARI', href: '/hasta-yorumlari', current: false },
+  { name: 'İLETİŞİM', href: '/iletisim', current: false },
 ]
 
 function classNames(...classes) {
@@ -33,16 +38,24 @@ export default function Navbar() {
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
-                  <img
+                  <Link href="/">
+                  <Image
                     className="block h-8 w-auto lg:hidden"
-                    src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
-                    alt="Your Company"
+                    src={logo}
+                    alt="Serkan Fatih Ipek Logo"
+                    width={100}
+                    height={100}
                   />
-                  <img
+                  </Link>
+                  <Link href="/">
+                  <Image
                     className="hidden h-8 w-auto lg:block"
-                    src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
-                    alt="Your Company"
+                    src={logo}
+                    alt="Serkan Fatih Ipek Logo"
+                    width={150}
+                    height={150}
                   />
+                  </Link>
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
@@ -65,10 +78,10 @@ export default function Navbar() {
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                 <button
                   type="button"
-                  className="rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+                  className="p-1 text-gray-300 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
                 >
                   <span className="sr-only">View notifications</span>
-                  <BellIcon className="h-6 w-6" aria-hidden="true" />
+                  <p>Alibey Mah. Aziz Sok. No: 3 D:5 Silivri / İstanbul</p>
                 </button>
 
                 {/* Profile dropdown */}
@@ -76,10 +89,12 @@ export default function Navbar() {
                   <div>
                     <Menu.Button className="flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
                       <span className="sr-only">Open user menu</span>
-                      <img
+                      <Image 
                         className="h-8 w-8 rounded-full"
-                        src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                        alt=""
+                        src={whatsapp}
+                        alt="whatsapp logo"
+                        width={100}
+                        height={100}
                       />
                     </Menu.Button>
                   </div>
@@ -99,7 +114,7 @@ export default function Navbar() {
                             href="#"
                             className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
                           >
-                            Your Profile
+                            0 552 714 80 80
                           </a>
                         )}
                       </Menu.Item>
@@ -109,7 +124,7 @@ export default function Navbar() {
                             href="#"
                             className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
                           >
-                            Settings
+                            info@serkanfatihipek.com
                           </a>
                         )}
                       </Menu.Item>
@@ -119,7 +134,7 @@ export default function Navbar() {
                             href="#"
                             className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
                           >
-                            Sign out
+                            Konum
                           </a>
                         )}
                       </Menu.Item>

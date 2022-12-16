@@ -4,10 +4,11 @@ function Ourservices() {
   return (
     <section className=" text-dark">
   <div className="max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
-    <div className="max-w-xl">
-      <h2 className="text-3xl font-bold sm:text-4xl">SAĞLIĞINIZ BİZİM İÇİN ÖNEMLİ!</h2>
+  <h2 className="text-3xl font-bold sm:text-4xl text-indigo-600 text-center">SAĞLIĞINIZ BİZİM İÇİN ÖNEMLİ!</h2>
 
-      <p className="mt-4 text-gray-700">
+    <div className="max-w-xl">
+
+      <p className="mt-4 text-gray-500">
       </p>
     </div>
 
@@ -23,9 +24,9 @@ function Ourservices() {
         </span>
 
         <div className="ml-4">
-          <h2 className="text-lg font-bold">Teşhisler ve Tedavi Yöntemleri</h2>
+          <h2 className="text-lg font-bold text-gray-600">Teşhisler ve Tedavi Yöntemleri</h2>
 
-          <p className="mt-1 text-sm text-gray-700">
+          <p className="mt-1 text-sm text-gray-500">
           Hastalığınızın tedavisi hakkında bilgi almak için sayfamızı ziyaret edebilirsiniz.
           </p>
         </div>
@@ -40,9 +41,9 @@ function Ourservices() {
         </span>
 
         <div className="ml-4">
-          <h2 className="text-lg font-bold">Hasta Odaklı Hizmet</h2>
+          <h2 className="text-lg font-bold text-gray-600">Hasta Odaklı Hizmet</h2>
 
-          <p className="mt-1 text-sm text-gray-700">
+          <p className="mt-1 text-sm text-gray-500">
           Hastalarımızın bizim için çok önemli! Hastalarımızın beklentilerine göre hareket edip, bunları karşılamak için elimizden gelenin en iyisini yapıyoruz.
           </p>
         </div>
@@ -57,9 +58,9 @@ function Ourservices() {
         </span>
 
         <div className="ml-4">
-          <h2 className="text-lg font-bold">Alanının En Tecrübeli Operatör Doktoru</h2>
+          <h2 className="text-lg font-bold text-gray-600">Alanının En Tecrübeli Operatör Doktoru</h2>
 
-          <p className="mt-1 text-sm text-gray-700">
+          <p className="mt-1 text-sm text-gray-500">
           Serkan Fatih İpek, birçok başarılı ameliyatı olan deneyimli bir doktor ve birçok mutlu gülümsemenin yaratıcısıdır.
           </p>
         </div>

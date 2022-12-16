@@ -1,8 +1,11 @@
 import React from 'react'
+import Navbar from '../components/Navbar'
 
 function hakkimda() {
   return (
-    <div>Hakkimizda</div>
+    <>
+    <Navbar />
+    </>
   )
 }
 

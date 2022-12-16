@@ -60,7 +60,7 @@ export default function Home({posts}) {
               excerpt={post.excerpt}
               coverImage={post.coverImage}/>
         ))}
-              </div>
+      </div>
               <CTA />
 
         <Comments />
