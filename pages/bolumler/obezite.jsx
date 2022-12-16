@@ -3,7 +3,7 @@ import Navbar from '../../components/Navbar'
 import styles from '../../styles/Bolumler.module.css'
 import Image from 'next/image'
 import midebotoksu from '../../images/mide-botoksu.jpg'
-
+import Link from 'next/link'
 
 
 function obezite() {
@@ -28,12 +28,12 @@ function obezite() {
 
 
         <div className="mt-4 md:mt-8">
-          <a
+          <Link
             href="https://api.whatsapp.com/send?phone=905527148080"
             className="inline-block rounded bg-emerald-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-emerald-700 focus:outline-none focus:ring focus:ring-yellow-400"
           >
             Randevu Al
-          </a>
+          </Link>
         </div>
       </div>
     </div>
