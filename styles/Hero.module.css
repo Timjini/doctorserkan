@@ -1,0 +1,11 @@
+.heroBg {
+    background-image: url('../images/mide-balonu-uygulamasi.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

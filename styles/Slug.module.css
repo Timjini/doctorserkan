@@ -1,0 +1,54 @@
+.cardMain {
+    display: flex ;
+    flex-direction: column ;
+    align-items: center ;
+    justify-content: center ;
+    margin-top: 2rem ;
+}
+.cardMain h1 {
+    font-size: 2rem ;
+    font-weight: 600 ;
+    color: #000 ;
+    margin-bottom: 1rem ;
+}
+
+.cardMain p {
+    font-size: 1.2rem ;
+    font-weight: 400 ;
+    color: #000 ;
+    margin-bottom: 1rem ;
+    padding: 0 20% 0 20%;
+}
+
+.cardMain img {
+    object-fit: cover ;
+    border-radius: 10px ;
+}
+
+.cardMain a {
+    text-decoration: none ;
+    color: #000 ;
+    font-size: 1.2rem ;
+    font-weight: 600 ;
+    margin-bottom: 1rem ;
+}
+
+.cardMain a:hover {
+    color: indigo ;
+    text-decoration: underline ;
+}
+
+.cardMain a:active {
+    color: lightseagreen ;
+    text-decoration: underline ;
+}
+
+.cardMain a:visited {
+    color: grey ;
+    text-decoration: underline ;
+}
+
+.cardMain a:link {
+    color: #000 ;
+    text-decoration: underline ;
+}
