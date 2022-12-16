@@ -16,7 +16,7 @@ function bolumler() {
     </section>
 
     <div className={styles.cardContainer}>
-    <a href="/bolumler/genel-cerrahi" class="block">
+    <Link href="/bolumler/genel-cerrahi" class="block">
       <Image
         alt="doctor"
         class="h-64 w-full object-cover"
@@ -30,8 +30,8 @@ function bolumler() {
       </p>
       <span className='text-green-500'>Daha Fazla</span>
 
-    </a>
-    <a href="/bolumler/endoskopi" class="block">
+    </Link>
+    <Link href="/bolumler/endoskopi" class="block">
       <Image
         alt="hospital"
         class="h-64 w-full object-cover"
@@ -45,8 +45,8 @@ function bolumler() {
       </p>
       <span className='text-green-500'>Daha Fazla</span>
 
-    </a>
-    <a href="/bolumler/obezite" class="block">
+    </Link>
+    <Link href="/bolumler/obezite" class="block">
       <Image
         alt="food"
         class="h-64 w-full object-cover"
@@ -59,7 +59,7 @@ function bolumler() {
       Fazla kilolarınızdan sağlıklı bir şekilde kurtulmak için mide balonu ve mide botoksu tedavisi ...
       </p>
       <span className='text-green-500'>Daha Fazla</span>
-    </a>
+    </Link>
 
       </div>
 
