@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 function CTA() {
   return (
@@ -10,12 +11,12 @@ function CTA() {
         </h2>
         <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
           <div className="inline-flex rounded-md shadow">
-            <a
-              href="#"
+            <Link
+              href="/iletisim"
               className="inline-flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-5 py-3 text-base font-medium text-white hover:bg-indigo-700"
             >
               HEMEN İLETİŞİME GEÇİN
-            </a>
+            </Link>
           </div>
         </div>
       </div>

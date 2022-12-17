@@ -81,7 +81,7 @@ export default function Navbar() {
                   className="p-1 text-gray-300 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
                 >
                   <span className="sr-only">View notifications</span>
-                  <p>Alibey Mah. Aziz Sok. No: 3 D:5 Silivri / İstanbul</p>
+                  <Link href="/iletisim">Alibey Mah. Aziz Sok. No: 3 D:5 Silivri / İstanbul</Link>
                 </button>
 
                 {/* Profile dropdown */}
@@ -110,32 +110,32 @@ export default function Navbar() {
                     <Menu.Items className="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
                       <Menu.Item>
                         {({ active }) => (
-                          <a
-                            href="#"
+                          <Link
+                            href="tel:90-552-714-80-80"
                             className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
                           >
                             0 552 714 80 80
-                          </a>
+                          </Link>
                         )}
                       </Menu.Item>
                       <Menu.Item>
                         {({ active }) => (
-                          <a
-                            href="#"
+                          <Link
+                            href="mailto: info@serkanfatihipek.com"
                             className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
                           >
                             info@serkanfatihipek.com
-                          </a>
+                          </Link>
                         )}
                       </Menu.Item>
                       <Menu.Item>
                         {({ active }) => (
-                          <a
-                            href="#"
+                          <Link
+                            href="https://api.whatsapp.com/send?phone=905527148080"
                             className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
                           >
-                            Konum
-                          </a>
+                            WhatsApp
+                          </Link>
                         )}
                       </Menu.Item>
                     </Menu.Items>
