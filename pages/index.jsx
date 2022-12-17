@@ -63,7 +63,6 @@ export default function Home({posts}) {
       </div>
               <CTA />
 
-        <Comments />
       </main>
 
       </div>

@@ -3,7 +3,7 @@
     flex-direction: column ;
     align-items: center ;
     justify-content: center ;
-    margin-top: 2rem ;
+    margin-top: 1rem ;
 }
 .cardMain h1 {
     font-size: 2rem ;
@@ -17,7 +17,7 @@
     font-weight: 400 ;
     color: #000 ;
     margin-bottom: 1rem ;
-    padding: 0 20% 0 20%;
+    padding: 0 10% 0 10%;
 }
 
 .cardMain img {
@@ -51,4 +51,9 @@
 .cardMain a:link {
     color: #000 ;
     text-decoration: underline ;
+}
+
+.cardMain u {
+    text-decoration: none ;
+    text-align: center;
 }
