@@ -33,6 +33,9 @@ export async function getStaticProps() {
 function tedaviler({posts}) {
   return (
     <><Navbar />
+         <section className={styles.headerSection}>
+                <h1>Tedaviler</h1>
+        </section>
      <div className={styles.cardContainer}>
 
     {posts.map((post) => (

@@ -15,9 +15,9 @@ export default function BlogCard({ title, excerpt, coverImage, slug }) {
     width={500} height={500}
   />
 
-  <div className="bg-white p-4 sm:p-6">
+  <div className={styles.cardContent}>
 
-    <a href="#">
+    <a href={"/tedaviler/"+ slug}>
       <h3 className="mt-0.5 text-lg text-gray-900">
       {title}
       </h3>

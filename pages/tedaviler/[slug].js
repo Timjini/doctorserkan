@@ -56,7 +56,10 @@ export default function BlogPost({ post }) {
         <>
         <Navbar />
         <main className={styles.cardMain}>
-            <Image src={post.coverImage.url} width={600} height={600} alt={post.title} />
+        <section className={styles.headerSection}>
+                <h1>Tedaviler</h1>
+        </section>
+            <Image src={post.coverImage.url} width={400} height={400} alt={post.title} />
             <h1>{post.title}</h1>
             <div dangerouslySetInnerHTML={{__html: post.body.html}} className={styles.htmlContent} />
         </main>

@@ -3,7 +3,6 @@
     flex-direction: column ;
     align-items: center ;
     justify-content: center ;
-    margin-top: 1rem ;
 }
 .cardMain h1 {
     font-size: 2rem ;
@@ -22,7 +21,7 @@
 
 .cardMain img {
     object-fit: cover ;
-    border-radius: 10px ;
+    margin: 2rem;
 }
 
 .cardMain a {
@@ -56,4 +55,24 @@
 .cardMain u {
     text-decoration: none ;
     text-align: center;
+}
+
+.htmlContent{
+    max-width: 1000px;
+}
+
+.headerSection{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    padding: 3rem;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+    align-self: center;
+    justify-content: center;
+}
+
+.headerSection h1{
+    color : white;
 }
