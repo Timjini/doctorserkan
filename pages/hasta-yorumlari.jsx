@@ -13,7 +13,7 @@ function hastaYorumlari() {
       <blockquote>
 
         <p className="mt-2 text-gray-700">
-        "Yetenek bilgi tecrübe güler yüz tüm güzellikler sizde toplanmış hocam iyi ki sizinle yollarımız kesişmiş yoksa hala hayat bana zordu çok teşekkürler."
+        Yetenek bilgi tecrübe güler yüz tüm güzellikler sizde toplanmış hocam iyi ki sizinle yollarımız kesişmiş yoksa hala hayat bana zordu çok teşekkürler.
         </p>
 
         <footer className="mt-4">
@@ -23,7 +23,7 @@ function hastaYorumlari() {
 
       <blockquote>
         <p className="mt-2 text-gray-700">
-        "Size çok teşekkür ediyorum hocam sizinle tanıştığım için çok mutluyum. Karşınıza hep sizin gibi güzel insanlar çıksın."
+        Size çok teşekkür ediyorum hocam sizinle tanıştığım için çok mutluyum. Karşınıza hep sizin gibi güzel insanlar çıksın.
         </p>
 
         <footer className="mt-4">
@@ -34,7 +34,7 @@ function hastaYorumlari() {
       <blockquote>
 
         <p className="mt-2 text-gray-700">
-        "Verdiğiniz krem tedavisi çok işe yaradı. Sizi herkese tavsiye ediyorum. Bu süreçte yanımda olduğunuz için çok teşekkür ederim sağlıcakla kalın."
+        Verdiğiniz krem tedavisi çok işe yaradı. Sizi herkese tavsiye ediyorum. Bu süreçte yanımda olduğunuz için çok teşekkür ederim sağlıcakla kalın.
         </p>
 
         <footer className="mt-4">
