@@ -13,7 +13,7 @@ export default function Hero() {
     >
       <div className="mx-auto max-w-xl text-center">
         <h1 className="text-3xl font-extrabold sm:text-5xl text-white">
-        Genel Cerrahi 
+        Genel Cerrahi <br/>
           <strong className="font-extrabold text-white sm:block">
           Endoskopi ve Obezite Tedavisi
           </strong>

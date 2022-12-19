@@ -1,8 +1,9 @@
 import React from 'react'
+import styles from '../styles/Home.module.css'
 
 function Ourservices() {
   return (
-    <section className=" text-dark">
+    <section className={styles.cta}>
   <div className="max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
   <h2 className="text-3xl font-bold sm:text-4xl text-indigo-600 text-center">SAĞLIĞINIZ BİZİM İÇİN ÖNEMLİ!</h2>
 

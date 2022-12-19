@@ -78,3 +78,9 @@
   color : white;
   font-size: 2rem;
 }
+
+.cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

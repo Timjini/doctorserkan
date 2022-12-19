@@ -107,7 +107,7 @@ export default function Navbar() {
                             href="tel:90-552-714-80-80"
                             className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
                           >
-                            0 552 714 80 80
+                            Şimdi Arayin
                           </Link>
                         )}
                       </Menu.Item>
@@ -127,7 +127,7 @@ export default function Navbar() {
                             href="https://api.whatsapp.com/send?phone=905527148080"
                             className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
                           >
-                            WhatsApp
+                            WhatsApp iletişimi
                           </Link>
                         )}
                       </Menu.Item>
