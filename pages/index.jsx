@@ -28,13 +28,17 @@ const graphcms = new GraphQLClient('https://api-eu-central-1-shared-euc1-02.hygr
     `
 export async function getStaticProps() {
   const {posts} = await graphcms.request(QUERY);
+
   return {
     props: {
       posts,
     },
-    revalidate: 10,
+    revalidate: 6,
   }
 }
+
+
+
 
 export default function Home({posts}) {
   return (

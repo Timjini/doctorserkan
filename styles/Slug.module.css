@@ -16,7 +16,6 @@
     font-weight: 400 ;
     color: #000 ;
     margin-bottom: 1rem ;
-    padding: 0 10% 0 10%;
 }
 
 .cardMain img {
@@ -59,7 +58,10 @@
 
 .htmlContent{
     max-width: 1000px;
+    padding:0 10% 0 10%;
+
 }
+
 
 .headerSection{
     display: flex;
@@ -76,3 +78,4 @@
 .headerSection h1{
     color : white;
 }
+
