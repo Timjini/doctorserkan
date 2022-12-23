@@ -1,11 +1,12 @@
 import React from 'react';
 import styles from '../styles/Section.module.css';
+import Link from 'next/link';
 
 function Section() {
   return (
     <div className={styles.mainContainer}>
-    <a
-  href=""
+    <Link
+  href="/bolumler"
   className="group flex flex-col justify-between rounded-sm bg-white p-8 shadow-xl transition-shadow hover:shadow-lg"
 >
   <div>
@@ -35,9 +36,9 @@ function Section() {
       />
     </svg>
   </div>
-</a>
-<a
-  href=""
+</Link>
+<Link
+  href="/bolumler"
   className="group flex flex-col justify-between rounded-sm bg-white p-8 shadow-xl transition-shadow hover:shadow-lg"
 >
   <div>
@@ -67,9 +68,9 @@ function Section() {
       />
     </svg>
   </div>
-</a>
-<a
-  href=""
+</Link>
+<Link
+  href="/bolumler"
   className="group flex flex-col justify-between rounded-sm bg-white p-8 shadow-xl transition-shadow hover:shadow-lg"
 >
   <div>
@@ -99,7 +100,7 @@ function Section() {
       />
     </svg>
   </div>
-</a>
+</Link>
 </div>
 
   )
