@@ -9,7 +9,7 @@ const graphcms = new GraphQLClient('https://api-eu-central-1-shared-euc1-02.hygr
 
   const QUERY =
     gql`{
-      posts {
+      posts (first:100) {
         id
         title
         slug
@@ -25,10 +25,10 @@ export async function getStaticProps() {
   return {
     props: {
       posts,
-    },
-    revalidate: 10,
+    }
   }
 }
+
 
 function tedaviler({posts}) {
   return (

@@ -113,27 +113,27 @@ function Footer() {
         <nav aria-label="Footer Navigation - Services" className="mt-6">
           <ul className="space-y-4 text-sm">
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75">
+              <Link href="/tedaviler/endoskopik-stent-yerleştirilmesi" className="text-gray-700 transition hover:opacity-75">
               Endoskopik Stent Yerleştirilmesi
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75">
+              <Link href="/tedaviler/peg" className="text-gray-700 transition hover:opacity-75">
                 PEG
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75">
+              <Link href="/tedaviler/Kolonoskopi" className="text-gray-700 transition hover:opacity-75">
               Kolonoskopi
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75">
+              <Link href="/tedaviler/Gastroskopi" className="text-gray-700 transition hover:opacity-75">
               Gastroskopi
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>
