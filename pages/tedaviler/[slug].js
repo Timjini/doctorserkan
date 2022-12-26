@@ -16,7 +16,6 @@ const graphcms = new GraphQLClient('https://api-eu-central-1-shared-euc1-02.hygr
             slug
             title
             excerpt
-            tag
             coverImage {
                 url
             }
