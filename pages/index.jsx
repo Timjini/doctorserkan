@@ -62,10 +62,13 @@ export default function Home({posts}) {
               excerpt={post.excerpt}
               coverImage={post.coverImage}/>
         ))}
-        <Link href="/tedaviler" className='block  rounded bg-gray-50 px-12 py-3 my-12 text-sm font-medium text-gray-700 shadow hover:bg-gray-100 focus:outline-none focus:ring active:bg-gray-100 sm:w-auto'>
+      </div>
+      <div className={styles.cardContainer}>
+      <Link href="/tedaviler" className='block  rounded bg-gray-50 px-12 py-3  text-lg font-medium text-gray-700 shadow hover:bg-gray-100 focus:outline-none focus:ring active:bg-gray-100 sm:w-auto'>
           Tüm Tedaviler
         </Link>
-      </div>
+        </div>
+
               <CTA />
 
       </main>
