@@ -13,6 +13,7 @@ const graphcms = new GraphQLClient('https://api-eu-central-1-shared-euc1-02.hygr
         id
         title
         slug
+        tag
         excerpt
         coverImage {
           url
@@ -26,12 +27,15 @@ export async function getStaticProps() {
     props: {
       posts,
     }
+    
   }
 }
 
 
+
+
+
 function tedaviler({posts}) {
-  console.log(posts)
   return (
     <><Navbar />
          <section className={styles.headerSection}>

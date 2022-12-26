@@ -48,11 +48,12 @@ export async function getStaticProps({params}) {
     const {slug} = params;
   const data = await graphcms.request(QUERY, {slug});
   const post = data.post;
+  console.log(`Building slug: ${slug}`)
+
   return {
     props: {
       post,
-    },
-    revalidate: 100,
+    }
   }
 }
 
