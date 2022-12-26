@@ -25,7 +25,7 @@ export default function Hero() {
   
         <div className="mt-8 flex flex-wrap justify-center gap-4">
           <Link
-            className="block w-full rounded bg-indigo-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-indigo-700 focus:outline-none focus:ring active:bg-indigo-500 sm:w-auto"
+            className="block  rounded bg-indigo-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-indigo-700 focus:outline-none focus:ring active:bg-indigo-500 sm:w-auto"
             href="/iletisim"
           >
             HEMEN BİLGİ AL
