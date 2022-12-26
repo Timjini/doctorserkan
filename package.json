@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@apollo/client": "^3.7.3",
     "@emailjs/browser": "^3.10.0",
     "@headlessui/react": "^1.7.6",
     "@heroicons/react": "^2.0.13",

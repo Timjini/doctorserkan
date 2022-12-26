@@ -6,10 +6,13 @@ import Navbar from '../../components/Navbar'
 
 const graphcms = new GraphQLClient('https://api-eu-central-1-shared-euc1-02.hygraph.com/v2/clbnnstcx1fvf01uoe1fvdg0p/master');
 
+
+
   const QUERY =
     gql`
-    query Post($slug: String!) {
-        post(where: {slug: $slug}) {
+    query Post($slug: String! )  {
+        post(where: {slug: $slug} ) {
+            id
             slug
             title
             excerpt
@@ -25,11 +28,12 @@ const graphcms = new GraphQLClient('https://api-eu-central-1-shared-euc1-02.hygr
 
 const SLUGLIST = gql`
     {
-        posts {
+        posts (first:100){
             slug
         }
     }    
 `
+
 export async function getStaticPaths() {
     const {posts} = await graphcms.request(SLUGLIST);
     return { 
@@ -37,6 +41,7 @@ export async function getStaticPaths() {
         fallback: false,
      }
 }
+
 
 
 export async function getStaticProps({params}) {
@@ -47,7 +52,7 @@ export async function getStaticProps({params}) {
     props: {
       post,
     },
-    revalidate: 10,
+    revalidate: 100,
   }
 }
 

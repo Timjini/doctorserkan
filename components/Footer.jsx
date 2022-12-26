@@ -19,7 +19,7 @@ function Footer() {
 
       <ul className="flex justify-start gap-6 mt-8 sm:mt-0 sm:justify-end">
         <li>
-          <a
+          <Link
             href="/"
             rel="noreferrer"
             target="_blank"
@@ -39,11 +39,11 @@ function Footer() {
                 clipRule="evenodd"
               />
             </svg>
-          </a>
+          </Link>
         </li>
 
         <li>
-          <a
+          <Link
             href="/"
             rel="noreferrer"
             target="_blank"
@@ -63,11 +63,11 @@ function Footer() {
                 clipRule="evenodd"
               />
             </svg>
-          </a>
+          </Link>
         </li>
 
         <li>
-          <a
+          <Link
             href="/"
             rel="noreferrer"
             target="_blank"
@@ -85,12 +85,12 @@ function Footer() {
                 d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"
               />
             </svg>
-          </a>
+          </Link>
         </li>
       </ul>
       <div>
       <Link
-              href="https://api.whatsapp.com/send?phone=905527148080"
+              href="https://Linkpi.whatsapp.com/send?phone=905527148080"
               className="mt-2 inline-flex items-center justify-center rounded-md border border-transparent bg-green-600 px-5 py-3 text-base font-medium text-white hover:bg-green-700"
             >
               WhatsApp İletişim
@@ -125,13 +125,13 @@ function Footer() {
             </li>
 
             <li>
-              <Link href="/tedaviler/Kolonoskopi" className="text-gray-700 transition hover:opacity-75">
+              <Link href="/tedaviler/kolonoskopi" className="text-gray-700 transition hover:opacity-75">
               Kolonoskopi
               </Link>
             </li>
 
             <li>
-              <Link href="/tedaviler/Gastroskopi" className="text-gray-700 transition hover:opacity-75">
+              <Link href="/tedaviler/gastroskopi" className="text-gray-700 transition hover:opacity-75">
               Gastroskopi
               </Link>
             </li>
@@ -145,32 +145,32 @@ function Footer() {
         <nav aria-label="Footer Navigation - Company" className="mt-6">
           <ul className="space-y-4 text-sm">
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75">
+              <Link href="/tedaviler/pankreas-kanseri" className="text-gray-700 transition hover:opacity-75">
               Pankreas Kanseri
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75">
+              <Link href="/tedaviler/kolon-kanseri" className="text-gray-700 transition hover:opacity-75">
               Kolon Kanseri
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75">
+              <Link href="/tedaviler/ince-bagirsak-kanseri" className="text-gray-700 transition hover:opacity-75">
               İnce Bağırsak Kanseri
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75">
+              <Link href="/tedaviler/mide-kanseri" className="text-gray-700 transition hover:opacity-75">
               Mide Kanseri
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75">
+              <Link href="/tedaviler/yemek-borusu-kanseri" className="text-gray-700 transition hover:opacity-75">
               Yemek Borusu Kanseri
-              </a>
+              </Link>
             </li>
           </ul>
 
@@ -183,26 +183,26 @@ function Footer() {
         <nav aria-label="Footer Navigation - Company" className="mt-6">
           <ul className="space-y-4 text-sm">
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75">
+              <Link href="/tedaviler/guatr" className="text-gray-700 transition hover:opacity-75">
               Guatr
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75">
+              <Link href="/tedaviler/tiroid-kanseri" className="text-gray-700 transition hover:opacity-75">
               Tiroid Kanseri
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75">
+              <Link href="/tedaviler/paratiroid-hastaliklari" className="text-gray-700 transition hover:opacity-75">
               Paratiroid Hastalıkları
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75">
+              <Link href="/tedaviler/Bobrek-ustu-bezi-hastaliklari" className="text-gray-700 transition hover:opacity-75">
               Böbrek Üstü Bezi Hastalıkları
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>
@@ -214,32 +214,32 @@ function Footer() {
         <nav aria-label="Footer Navigation - Legal" className="mt-6">
           <ul className="space-y-4 text-sm">
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75">
+              <Link href="/tedaviler/jinekomasti" className="text-gray-700 transition hover:opacity-75">
                 Jinekomasti
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75">
+              <Link href="/tedaviler/fibroadenom" className="text-gray-700 transition hover:opacity-75">
               Fibroadenom
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75">
+              <Link href="/tedaviler/meme-kanseri" className="text-gray-700 transition hover:opacity-75">
               Meme Kanseri
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75">
+              <Link href="/tedaviler/fibrokistik-hastaligi" className="text-gray-700 transition hover:opacity-75">
               Fibrokistik Hastalığı
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75">
+              <Link href="/tedaviler/iyi-huylu-meme-hastaliklari" className="text-gray-700 transition hover:opacity-75">
               İyi Huylu Meme Hastalıkları
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>
@@ -250,21 +250,21 @@ function Footer() {
         <nav aria-label="Footer Navigation - Legal" className="mt-6">
           <ul className="space-y-4 text-sm">
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75">
+              <Link href="/tedaviler/tup-mide" className="text-gray-700 transition hover:opacity-75">
               Tüp Mide
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75">
+              <Link href="/tedaviler/mide-balonu" className="text-gray-700 transition hover:opacity-75">
               Mide Balonu
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75">
+              <Link href="/tedaviler/mide-botoksu" className="text-gray-700 transition hover:opacity-75">
               Mide Botoksu
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>
@@ -275,21 +275,21 @@ function Footer() {
         <nav aria-label="Footer Navigation - Legal" className="mt-6">
           <ul className="space-y-4 text-sm">
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75">
+              <Link href="/tedaviler/safra-yollari-kanseri" className="text-gray-700 transition hover:opacity-75">
               Safra Yolları Kanseri
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75">
+              <Link href="/tedaviler/safra-kesesi-kanseri" className="text-gray-700 transition hover:opacity-75">
               Safra Kesesi Kanseri
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75">
+              <Link href="/tedaviler/safra-kesesi-tasi" className="text-gray-700 transition hover:opacity-75">
               Safra Kesesi Taşı
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>
@@ -300,27 +300,27 @@ function Footer() {
         <nav aria-label="Footer Navigation - Legal" className="mt-6">
           <ul className="space-y-4 text-sm">
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75">
+              <Link href="/tedaviler/karaciger-kanseri" className="text-gray-700 transition hover:opacity-75">
                 Karaciğer Kanseri
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75">
+              <Link href="/tedaviler/karaciger-iyi-huylu-tumorleri" className="text-gray-700 transition hover:opacity-75">
               Karaciğer İyi Huylu Tümörleri
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75">
+              <Link href="/tedaviler/karaciger-kisti" className="text-gray-700 transition hover:opacity-75">
               Karaciğer Kisti
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75">
+              <Link href="/tedaviler/karaciger-apsesi" className="text-gray-700 transition hover:opacity-75">
               Karaciğer Apsesi
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>
@@ -331,32 +331,32 @@ function Footer() {
         <nav aria-label="Footer Navigation - Legal" className="mt-6">
           <ul className="space-y-4 text-sm">
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75">
+              <Link href="/tedaviler/hemoroid" className="text-gray-700 transition hover:opacity-75">
                 Hemoroid
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75">
+              <Link href="/tedaviler/kil-donmesi" className="text-gray-700 transition hover:opacity-75">
               Kıl Dönmesi
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75">
+              <Link href="/tedaviler/anal-fissur" className="text-gray-700 transition hover:opacity-75">
               Anal Fissür
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75">
+              <Link href="/tedaviler/anal-fistul" className="text-gray-700 transition hover:opacity-75">
               Anal Fistül
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75">
+              <Link href="/tedaviler/anal-apse" className="text-gray-700 transition hover:opacity-75">
               Anal Apse
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>
@@ -367,21 +367,21 @@ function Footer() {
         <nav aria-label="Footer Navigation - Legal" className="mt-6">
           <ul className="space-y-4 text-sm">
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75">
+              <Link href="/tedaviler/ameliyat-yeri-fitigi" className="text-gray-700 transition hover:opacity-75">
               Ameliyat Yeri Fıtığı
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75">
+              <Link href="/tedaviler/gobek-fitigi" className="text-gray-700 transition hover:opacity-75">
               Göbek Fıtığı
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75">
+              <Link href="/tedaviler/kasik-fitigi" className="text-gray-700 transition hover:opacity-75">
               Kasık Fıtığı
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>
@@ -389,7 +389,7 @@ function Footer() {
     </div>
 
     <p className="text-xs text-gray-500">
-      &copy; 2022. Company Name. All rights reserved.
+      &copy; 2022. Op. Doktor Serkan Fatih İpek. All rights reserved.
     </p>
   </div>
 </footer>

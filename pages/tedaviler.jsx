@@ -31,6 +31,7 @@ export async function getStaticProps() {
 
 
 function tedaviler({posts}) {
+  console.log(posts)
   return (
     <><Navbar />
          <section className={styles.headerSection}>
