@@ -1,6 +1,5 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
-import Navbar from '../components/Navbar';
 import Link from 'next/link';
 
 const Iletisim = () => {
@@ -11,7 +10,6 @@ const Iletisim = () => {
   if(confirmation) {
     return (
       <>
-    <Navbar />
     <section className="bg-gray-100">
   <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
     <div className="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
@@ -58,7 +56,6 @@ const Iletisim = () => {
 
   return (
     <>
-    <Navbar />
     <section className="bg-gray-100">
   <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
     <div className="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">

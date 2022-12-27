@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from '../../components/Navbar'
 import styles from '../../styles/Bolumler.module.css'
 import Image from 'next/image'
 import end from '../../images/endoskopi.jpg'
@@ -9,7 +8,6 @@ import Link from 'next/link'
 function endoskopi() {
   return (
     <>
-    <Navbar />
     <section className={styles.headerSection}>
     <h1>ENDOSKOPİ</h1>
    </section>

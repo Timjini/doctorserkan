@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from '../../components/Navbar'
 import styles from '../../styles/Bolumler.module.css'
 import Image from 'next/image'
 import midebotoksu from '../../images/mide-botoksu.jpg'
@@ -9,7 +8,6 @@ import Link from 'next/link'
 function obezite() {
   return (
     <>
-    <Navbar />
     <section className={styles.headerSection}>
     <h1>OBEZİTE TEDAVİSİ</h1>
    </section>

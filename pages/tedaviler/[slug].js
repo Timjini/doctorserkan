@@ -1,7 +1,6 @@
 import styles from '../../styles/Slug.module.css'
 import { GraphQLClient, gql } from 'graphql-request';
 import Image from 'next/image'
-import Navbar from '../../components/Navbar'
 
 
 const graphcms = new GraphQLClient('https://api-eu-central-1-shared-euc1-02.hygraph.com/v2/clbnnstcx1fvf01uoe1fvdg0p/master');
@@ -60,7 +59,6 @@ export async function getStaticProps({params}) {
 export default function BlogPost({ post }) {
     return (
         <>
-        <Navbar />
         <main className={styles.cardMain}>
         <section className={styles.headerSection}>
                 <h1>Tedaviler</h1>

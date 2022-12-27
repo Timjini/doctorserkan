@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
 import { GraphQLClient, gql } from 'graphql-request';
 import BlogCard from '../components/BlogCard';
 import styles from '../styles/Home.module.css'
@@ -37,7 +36,7 @@ export async function getStaticProps() {
 
 function tedaviler({posts}) {
   return (
-    <><Navbar />
+    <>
          <section className={styles.headerSection}>
                 <h1>Tedaviler</h1>
         </section>

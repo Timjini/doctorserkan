@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
 import styles from '../styles/Bolumler.module.css'
 import hospital from '../images/Hospital.jpg'
 import food from '../images/food.jpg'
@@ -10,7 +9,6 @@ import Link from 'next/link'
 function bolumler() {
   return (
    <>
-   <Navbar />
     <section className={styles.headerSection}>
       <h1>BÖLÜMLER</h1>
     </section>

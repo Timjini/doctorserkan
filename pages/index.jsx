@@ -6,7 +6,6 @@ import Hero from '../components/Hero';
 import Section from '../components/Section';
 import CTA from '../components/CTA';
 import Ourservices from '../components/Ourservices';
-import Navbar from '../components/Navbar';
 import Link from 'next/link';
 
 const graphcms = new GraphQLClient('https://api-eu-central-1-shared-euc1-02.hygraph.com/v2/clbnnstcx1fvf01uoe1fvdg0p/master')
@@ -48,7 +47,6 @@ export default function Home({posts}) {
       </Head>
 
       <main className={styles.main}>
-      <Navbar />
       <Hero />
       <Section />
       <Ourservices />

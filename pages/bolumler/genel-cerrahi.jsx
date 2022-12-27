@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from '../../components/Navbar'
 import styles from '../../styles/Bolumler.module.css'
 import genelPage from '../../images/genel-page.jpg'
 import Image from 'next/image'
@@ -8,7 +7,6 @@ import Link from 'next/link'
 function GenelCerrahi() {
   return (
     <>
-      <Navbar />
       <section className={styles.headerSection}>
       <h1>GENEL CERRAHİ</h1>
      </section>

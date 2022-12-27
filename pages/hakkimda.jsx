@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
 import Image from 'next/image'
 import serkan from '../images/dr_serkan-fatih-ipek.jpg'
 import styles from '../styles/Home.module.css'
@@ -8,7 +7,6 @@ import Link from 'next/link'
 function hakkimda() {
   return (
     <>
-    <Navbar />
     <section className={styles.hakkimdaWrapper}>
     <Image src={serkan} alt="serkan" width={350} height={350} />
   <div className={styles.hakkimdaContent}>
