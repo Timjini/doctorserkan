@@ -20,7 +20,7 @@
     padding: 3rem;
     gap:10px;
     flex-wrap: wrap;
-    background-color: aquamarine;
+    background: linear-gradient(90deg, rgb(34, 145, 197) 0%, rgb(87, 235, 255) 100%, rgba(0,212,255,1) 100%);
     align-self: center;
     justify-content: center;
   }

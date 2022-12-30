@@ -151,6 +151,9 @@ const Iletisim = () => {
     </div>
   </div>
 </section>
+<section className="map" >
+<iframe className='map-view' src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12031.084009901491!2d28.248804!3d41.073998!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbd40ae537a2d136a!2sDr.%20Serkan%20Fatih%20%C4%B0pek!5e0!3m2!1sen!2suk!4v1672434050874!5m2!1sen!2suk"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
 
     </>
 

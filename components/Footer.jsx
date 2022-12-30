@@ -20,7 +20,7 @@ function Footer() {
       <ul className="flex justify-start gap-6 mt-8 sm:mt-0 sm:justify-end">
         <li>
           <Link
-            href="/"
+            href="https://tr-tr.facebook.com/y.doc.dr.serkanipek/"
             rel="noreferrer"
             target="_blank"
             className="text-gray-700 transition hover:opacity-75"
@@ -44,7 +44,7 @@ function Footer() {
 
         <li>
           <Link
-            href="/"
+            href="https://www.instagram.com/y.doc.dr.serkanipek/?hl=en"
             rel="noreferrer"
             target="_blank"
             className="text-gray-700 transition hover:opacity-75"
@@ -68,29 +68,22 @@ function Footer() {
 
         <li>
           <Link
-            href="/"
+            href="https://www.youtube.com/@OpDrSerkanFatihIpek"
             rel="noreferrer"
             target="_blank"
             className="text-gray-700 transition hover:opacity-75"
           >
-            <span className="sr-only">Twitter</span>
+            <span className="sr-only">Youtube</span>
 
-            <svg
-              className="w-6 h-6"
-              fill="currentColor"
-              viewBox="0 0 24 24"
-              aria-hidden="true"
-            >
-              <path
-                d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"
-              />
-            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6"
+              fill="currentColor" viewBox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg>
           </Link>
         </li>
       </ul>
       <div>
       <Link
-              href="https://Linkpi.whatsapp.com/send?phone=905527148080"
+              href=" https://wa.me/905527148080"
+              target="_blank"
               className="mt-2 inline-flex items-center justify-center rounded-md border border-transparent bg-green-600 px-5 py-3 text-base font-medium text-white hover:bg-green-700"
             >
               WhatsApp İletişim
@@ -113,7 +106,7 @@ function Footer() {
         <nav aria-label="Footer Navigation - Services" className="mt-6">
           <ul className="space-y-4 text-sm">
             <li>
-              <Link href="/tedaviler/endoskopik-stent-yerleştirilmesi" className="text-gray-700 transition hover:opacity-75">
+              <Link href="/tedaviler/endoskopik-stent-yerlestirilmesi" className="text-gray-700 transition hover:opacity-75">
               Endoskopik Stent Yerleştirilmesi
               </Link>
             </li>

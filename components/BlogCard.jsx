@@ -8,6 +8,7 @@ export default function BlogCard({ title, excerpt, coverImage, slug }) {
     return (
 <div className={styles.cardContainer}>
 <article className={styles.card}>
+<Link href={"/tedaviler/"+ slug}>
   <Image
     alt="Office"
     className="h-56 w-full object-cover"
@@ -26,10 +27,10 @@ export default function BlogCard({ title, excerpt, coverImage, slug }) {
     <p className="mt-2 text-sm leading-relaxed text-gray-500 line-clamp-3">
     {excerpt}
     </p>
-    <Link href={"/tedaviler/"+ slug}>
       devamını oku
-            </Link>
   </div>
+  </Link>
+
 </article>
 </div>
 

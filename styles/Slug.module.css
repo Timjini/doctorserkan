@@ -5,11 +5,33 @@
     justify-content: center ;
 }
 .cardMain h1 {
-    font-size: 2rem ;
+    font-size: 3rem ;
     font-weight: 600 ;
     color: #000 ;
     margin-bottom: 1rem ;
 }
+
+.cardMain h2 {
+    font-size: 1.5rem ;
+    font-weight: 600 ;
+    color: #000 ;
+    margin-bottom: 1rem ;
+}
+
+.cardMain h3 {
+    font-size: 1.2rem ;
+    font-weight: 600 ;
+    color: #000 ;
+    margin-bottom: 1rem ;
+}
+
+.cardMain h4 {
+    font-size: 1.2rem ;
+    font-weight: 600 ;
+    color: #000 ;
+    margin-bottom: 1rem ;
+}
+
 
 .cardMain p {
     font-size: 1.2rem ;
@@ -68,14 +90,21 @@
     flex-direction: row;
     width: 100%;
     height: 100%;
-    padding: 3rem;
+    padding: 4rem;
     flex-wrap: wrap;
-    background-color: aquamarine;
+    background: linear-gradient(90deg, rgb(34, 145, 197) 0%, rgb(87, 235, 255) 100%, rgba(0,212,255,1) 100%);
     align-self: center;
     justify-content: center;
 }
 
 .headerSection h1{
     color : white;
+}
+
+.htmlContent ul {
+    /* bulett list */
+    list-style-type: disc;
+    margin-left: 1rem;
+    padding-bottom: 1rem;
 }
 

@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.map {
+    width: 100vw;
+}
+.map-view {
+    width: 100vw;
+    height: 50vh;
+}
