@@ -16,7 +16,7 @@
 
 @media screen and (max-width: 768px) {
     .heroBg {
-        background-image: url('../images/mobile-hero.jpeg');
+        background-image: url('../images/mobile-hero.jpg');
         height: auto;
     }
 }
