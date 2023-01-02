@@ -27,7 +27,7 @@ const graphcms = new GraphQLClient('https://api-eu-central-1-shared-euc1-02.hygr
 
 const SLUGLIST = gql`
     {
-        posts (first:35){
+        posts (first:100){
             slug
         }
     }    
@@ -56,8 +56,13 @@ export async function getStaticProps({params}) {
   }
 }
 
+
 export default function BlogPost({ post }) {
+
+
     return (
+
+
         <>
         <main className={styles.cardMain}>
         <section className={styles.headerSection}>
