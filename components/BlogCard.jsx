@@ -17,13 +17,9 @@ export default function BlogCard({ title, excerpt, coverImage, slug }) {
   />
 
   <div className={styles.cardContent}>
-
-    <a href={"/tedaviler/"+ slug}>
       <h3 className="mt-0.5 text-lg text-gray-900">
       {title}
       </h3>
-    </a>
-
     <p className="mt-2 text-sm leading-relaxed text-gray-500 line-clamp-3">
     {excerpt}
     </p>

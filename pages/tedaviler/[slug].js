@@ -27,7 +27,7 @@ const graphcms = new GraphQLClient('https://api-eu-central-1-shared-euc1-02.hygr
 
 const SLUGLIST = gql`
     {
-        posts (first:100){
+        posts (first:35){
             slug
         }
     }    
